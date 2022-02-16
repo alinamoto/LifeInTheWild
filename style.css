@@ -1,0 +1,28 @@
+h1{
+
+	color: royalblue;
+	font-weight: bold;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	width: 400px;
+	text-align: center;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 5px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform:  scale(1.1);
+}
